@@ -24,7 +24,7 @@ public class NullableRequestResponseBodyMethodProcessor extends RequestResponseB
         super(messageConverters);
     }
 
-        @Override
+    @Override
     public void handleReturnValue(Object returnValue,
                                   MethodParameter returnType,
                                   ModelAndViewContainer mavContainer,
